@@ -1,6 +1,6 @@
 {
   "name": "ivan-cli-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "nope",
   "main": "cli.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/ivanthecrazy/ivan-cli-test#readme",
   "bin": {
-    "watch": "./watch.js",
-    "login": "./login.js"
+    "ivan-cli-test": "./cli.js"
   }
 }
