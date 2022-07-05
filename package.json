@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ivanthecrazy/ivan-cli-test#readme",
   "bin": {
-    "login": "./login.js",
-    "watch": "./watch.js"
+    "login": "node ./login.js",
+    "watch": "node ./watch.js"
   }
 }
