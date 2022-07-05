@@ -2,7 +2,7 @@
   "name": "ivan-cli-test",
   "version": "1.0.0",
   "description": "nope",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ivanthecrazy/ivan-cli-test/issues"
   },
-  "homepage": "https://github.com/ivanthecrazy/ivan-cli-test#readme"
+  "homepage": "https://github.com/ivanthecrazy/ivan-cli-test#readme",
+  "bin": {
+    "login": "./login.js",
+    "watch": "./watch.js"
+  }
 }
